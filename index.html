@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="head">Quiz Game</h2>
+        <div class="quiz">
+            <div>
+                <h2 id="qns"></h2>
+            </div>
+            <div class="options-container">
+                <div>
+                    <input type="radio" id="ans1" class="options" name="option">
+                    <label for="ans1" id="opt1" class="option-box"></label>
+                </div>
+                <div>
+                    <input type="radio" id="ans2" class="options" name="option">
+                    <label for="ans2" id="opt2" class="option-box"></label>
+                </div>
+                <div>
+                    <input type="radio" id="ans3" class="options" name="option">
+                    <label for="ans3" id="opt3" class="option-box"></label>
+                </div>
+                <div>
+                    <input type="radio" id="ans4" class="options" name="option">
+                    <label for="ans4" id="opt4" class="option-box"></label>
+                </div>
+            </div>
+            <div class="btn">
+                <h2 class="myScore"></h2>
+                <button onclick="prev()">Previous</button>
+                <button onclick="next()">Next</button>
+                <button onclick="reload()">Reload</button>
+            </div>
+        </div>
+    </div> 
+    <script src="quiz.js"></script>
+</body>
+</html> 
+
+
+
+
+ 

@@ -1,0 +1,77 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(2, 2, 24);
+}
+
+.container {
+    width: 440px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.head {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.quiz {
+    margin: 20px 0;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option-box {
+    display: block;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option-box:hover {
+    background-color: #d0d0d0;
+}
+
+.btn {
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(2, 2, 24);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: rgb(1, 1, 20);
+}
+
+.correct {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.incorrect {
+    background-color: #F44336; /* Red */
+    color: white;
+}
+
+.emoji {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
